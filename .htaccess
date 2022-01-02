@@ -1,0 +1,2 @@
+# Manejo de la cache para optimizacion de lighthouse
+#Header set Cache-Control "max-age=31536000, public"

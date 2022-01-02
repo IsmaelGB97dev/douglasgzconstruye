@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'splineSans-regular';
+    src: url('../fonts/SplineSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'splineSans-bold';
+    src: url('../fonts/SplineSans-Bold.ttf') format('truetype');
+}
+
+:root {
+    --color1: #0917A8;
+    --color2: #4252FF;
+    --color3: #F5C927;
+    --color4: #E0E5EB;
+    --font-regular: 'splineSans-regular';
+    --font-bold: 'splineSans-bold';
+}
+
+body {
+    font-family: var(--font-regular) !important;
+}
+
+
+.bg-color1 {
+    background-color: var(--color1);
+}
+
+.bg-color2 {
+    background-color: var(--color2);
+}
+
+.bg-color3 {
+    background-color: var(--color3);
+}
+
+.bg-color4 {
+    background-color: var(--color4);
+}
+
+.t-color1 {
+    color: var(--color1);
+}
+
+.t-color2 {
+    color: var(--color2);
+}
+
+.t-color3 {
+    color: var(--color3);
+}
+
+.t-color4 {
+    color: var(--color4);
+}
+
+/* ------------- Estilos generales --------------- */
+a {
+    text-decoration: none ;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-bold);
+}
+
+.t-shadow1-dark {
+    text-shadow: 4px 4px 5px #000 ;
+}
+
+
+/* ------------------ MENU1 ----------------- */
+.menu-1 .nav-item {
+    border-style: solid;
+    border-width: 1px 0px;
+    border-color: var(--color1);
+    font-weight: bold;
+}
+.menu-1 .nav-item.active {
+    background-color: var(--color1) !important;
+    
+    box-shadow: -3px -2px 2px #777;
+}
+.menu-1 .nav-item.active a{
+    color: #fff;    
+}
+
+.menu-1 .nav-item:hover {
+    transform: translateY(-5px);
+    box-shadow: -3px -2px 5px #777;
+    transition: all .5s;
+}
+
+/* --------- SLIDER-1 -------------*/
+.slider-1 .carousel-item {
+    animation: fadeInLeft 1s ease-in-out;
+}
+.slider-1 .carousel-caption h5 {
+    font-size: 3em !important;
+}
+.slider-1 .carousel-caption h6 {
+    font-size: 2em !important;
+}
+@media (max-width: 576px) {
+    .slider-1 .carousel-caption {
+        bottom: 25% !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .slider-1 .carousel-caption {
+        bottom: 35% !important;
+    }
+}
+@media (min-width: 768px) {
+    .slider-1 .carousel-caption {
+        bottom: 30% !important;
+    }
+} 
+
+
+/* 
+@media (max-width: 576px) {
+    
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    
+}
+@media (min-width: 768px) {
+   
+} 
+*/
+
+
+
+
