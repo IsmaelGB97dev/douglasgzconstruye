@@ -49,6 +49,7 @@ class Datos {
         echo '<a href="' . $this->social[$nombre]['url']. '" target="_blank" rel="noopener"><img src="' . IMG . 'marcas/' . $this->social[$nombre]['logo'] . '" width="' . $this->social[$nombre]['ancho'] .  '" height="' .  $this->social[$nombre]['alto'] . '" class="img-fluid" alt="' . $this->negocio . '"></a>';
     }
 
+
     function __construct()
     {
     }

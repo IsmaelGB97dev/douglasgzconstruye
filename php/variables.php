@@ -9,7 +9,7 @@ $data->dominio      = 'douglasgzconstruye';
 $data->negocio      = 'Douglas G.Z. Construye';
 
 // Numeros de telefonos
-$data->telefonos[0] = ['numero' => '(505) 8888-8888', 'nombre' => ''];
+$data->telefonos[0] = ['numero' => '(+505) 8888-8888', 'nombre' => ''];
 
 // Direcciones de correos
 $data->correos[0]   = ['correo' => 'micuentadecorreo@gmail.com', 'nombre' => ''];

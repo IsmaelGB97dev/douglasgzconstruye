@@ -1,4 +1,6 @@
     
+    <?php include 'php/sections/menu-mobile1.php'; ?>
+
     <script defer src="<?php echo JS; ?>aos.js"></script>
     <script defer src="<?php echo JS; ?>script.js"></script>
     <script defer src="<?php echo JS; ?>bootstrap.bundle.min.js"></script>
