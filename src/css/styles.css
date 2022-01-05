@@ -54,7 +54,7 @@ body {
 }
 
 /* ------------- Estilos generales --------------- */
-a, a:visited {
+a, a:visited, a:link {
     text-decoration: none;
     color: #000;
 }
@@ -125,6 +125,17 @@ h1,h2,h3,h4,h5,h6 {
 .menu-mobile1 .col-4{
     border: 1px solid #000;
     border-collapse: collapse;
+}
+
+
+.serv-acordion .col-1 {
+    animation: shakeY 5s infinite;
+}
+.rotateUp-serv {
+    transform: rotate(180deg);
+}
+.rotateDown-serv {
+    transform: rotate(0deg);
 }
 
 /* 

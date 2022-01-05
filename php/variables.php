@@ -42,6 +42,14 @@ $data->cta = [
     'Contactanos'
 ];
 
+$lorem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam qui error eveniet nostrum mollitia ab id, aut voluptatem esse nemo distinctio explicabo adipisci.';
+
+// Servicios 
+$data->servicio[0] = ['Servicio 1', $lorem];
+$data->servicio[1] = ['Servicio 2', $lorem];
+$data->servicio[2] = ['Servicio 3', $lorem];
+$data->servicio[3] = ['Servicio 4', $lorem];
+
 
 
 

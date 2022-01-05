@@ -4,6 +4,7 @@ const JS = 'src/js/';
 const IMG = 'src/img/';
 const SLIDER = IMG . 'slider/';
 const SLIDERMIN = SLIDER . 'min/';
+const SECTIONS = 'php/sections/';
 
 class Datos {
     public $url;
@@ -15,6 +16,7 @@ class Datos {
     public $social      = array();
     public $cta         = array();
     public $sliderText  = array();
+    public $servicio   = array();
     
     /**
      * Obtener el nombre de la pagina actual

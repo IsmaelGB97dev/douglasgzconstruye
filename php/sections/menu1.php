@@ -2,13 +2,13 @@
     <div class="container-fluid bg-color3 d-none d-md-block">
         <div class="container">
             <div class="row py-1 px-3 justify-content-center text-center align-items-center">
-                <div class="col-md-3 col-lg-3">
+                <div class="col-md-4 col-lg-3">
                     <a class="text-dark fw-bold" href="tel:<?php echo $data->telefonos[0]['numero']; ?>">
                         <i class="fas fa-phone-alt text-dark"></i>
                         <span><?php echo $data->telefonos[0]['numero']; ?></span>
                     </a>
                 </div>
-                <div class="col-md-8 col-lg-5">
+                <div class="col-md-7 col-lg-5">
                     <a class="text-dark fw-bold" href="mailto:<?php echo $data->correos[0]['correo']; ?>">
                         <i class="fas fa-envelope text-dark"></i>
                         <span><?php echo $data->correos[0]['correo']; ?></span>
