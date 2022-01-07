@@ -129,13 +129,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .serv-acordion .col-1 {
-    animation: shakeY 5s infinite;
-}
-.rotateUp-serv {
-    transform: rotate(180deg);
-}
-.rotateDown-serv {
-    transform: rotate(0deg);
+    animation: pulse 1s infinite;
 }
 
 /* 

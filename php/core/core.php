@@ -4,6 +4,7 @@ const JS = 'src/js/';
 const IMG = 'src/img/';
 const SLIDER = IMG . 'slider/';
 const SLIDERMIN = SLIDER . 'min/';
+const SERVICIOS = IMG . 'servicios/';
 const SECTIONS = 'php/sections/';
 
 class Datos {
