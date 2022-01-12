@@ -12,7 +12,7 @@ $data->negocio      = 'Douglas G.Z. Construye';
 $data->telefonos[0] = ['numero' => '(+505) 8888-8888', 'nombre' => ''];
 
 // Direcciones de correos
-$data->correos[0]   = ['correo' => 'micuentadecorreo@gmail.com', 'nombre' => ''];
+$data->correos[0]   = ['correo' => 'info@greenhaven.com', 'nombre' => ''];
 
 // Redes sociales [url, nombre de imagen de logo, ancho ej: 80.px]
 $data->social['facebook'] = [

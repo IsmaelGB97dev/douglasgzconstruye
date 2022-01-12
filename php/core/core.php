@@ -6,6 +6,8 @@ const SLIDER = IMG . 'slider/';
 const SLIDERMIN = SLIDER . 'min/';
 const SERVICIOS = IMG . 'servicios/';
 const SECTIONS = 'php/sections/';
+const HEADERS = SECTIONS.'headers/';
+const MENUS = SECTIONS.'menus/';
 
 class Datos {
     public $url;

@@ -19,7 +19,8 @@
 </head>
 <body>
 
-<?php include 'php/sections/menu1.php'; ?>
+<?php include HEADERS.'header1.php'; ?>
 
-    
+<!-- <?php // include 'php/sections/menu1.php'; ?> -->
+
 
