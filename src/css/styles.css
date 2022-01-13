@@ -13,8 +13,8 @@
 :root {
     --color1: #69af07;
     --color2: #4252FF;
-    --color3: #F5C927;
-    --color4: #E0E5EB;
+    --color3: #81680f;
+    --color4: #f6f3ec;
     --font-regular: 'MavenPro';
     --font-bold: 'splineSans-bold';
 }
@@ -98,6 +98,68 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: .5px;
 }
 
+.bg-img1 {
+    background: url('../img/fondos/1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/* ------------------ SECTION 1 -------------- */
+.section-1 i{
+    font-size: 40px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 8px solid #fff;
+    outline: 1px solid transparent;
+}
+
+.section-1 .ficha:hover i {
+    background-color: #000 !important;
+    outline: 1px solid #000;
+    color: #fff;
+    transition: all .7s;
+}
+
+/* ---------------- SECTION2 ------------------- */
+
+.section-2 .items {
+    position: relative;
+    padding: 60px 25px 20px ;
+}
+.section-2 .items i {
+    font-size: 35px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color1);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -45px;
+}
+
+.section-2 .items:hover i {
+    background-color: #000;
+    color: #fff;
+    transition: all .6s;
+}
+.section-2 .items:hover h5 {
+    color: var(--color1);
+    transition: all .6s;
+}
+
+/* ----------------- TESTIMONIALS 1 ---------------- */
+
+.testimonials-1 .foto img {
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.685);
+}
 
 
 

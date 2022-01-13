@@ -8,6 +8,8 @@ const SERVICIOS = IMG . 'servicios/';
 const SECTIONS = 'php/sections/';
 const HEADERS = SECTIONS.'headers/';
 const MENUS = SECTIONS.'menus/';
+const CONTAINERS = SECTIONS.'containers/';
+
 
 class Datos {
     public $url;
@@ -20,6 +22,8 @@ class Datos {
     public $cta         = array();
     public $sliderText  = array();
     public $servicio   = array();
+    public $headerHome = array();
+    public $testimonial = array();
     
     /**
      * Obtener el nombre de la pagina actual

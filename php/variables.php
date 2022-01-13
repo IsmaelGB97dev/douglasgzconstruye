@@ -42,6 +42,21 @@ $data->cta = [
     'Contactanos'
 ];
 
+// Header home 
+$data->headerHome = [
+    '<span class="t-color1">Get things done</span> the right way'
+];
+
+// Testimonial static (testimonio, persona, puesto)
+$data->testimonial = array(
+    ['Testomonio1  dolor sit amet, consectetur adipiscing elit. Donec et dapibus tortor. Suspendisse orci ante, vestibulum at libero ac, vulputate vulputate sem. Cras quis lorem condimentum, ornare mi molestie, rhoncus ipsum.', 'Jose Lopez', 'Jardinero'],
+    
+    ['Testimonio2 et dapibus tortor. Suspendisse orci ante, vestibulum at libero ac, vulputate vulputate sem. Cras quis lorem condimentum, ornare mi molestie, rhoncus ipsum.', 'Ana Mora Lopez', 'Director'],
+    
+    ['Testimonia3 dolor sit amet, consectetur adipiscing elit. Donec et dapibus tortor. Suspendisse orci ante, vestibulum at libero ac, vulputate vulputate sem. Cras quis lorem condimentum, ornare mi molestie, rhoncus ipsum.', 'Jhon Guttenberg', 'Policia']
+);
+
+
 $lorem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam qui error eveniet nostrum mollitia ab id, aut voluptatem esse nemo distinctio explicabo adipisci.';
 
 // Servicios 
