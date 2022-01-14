@@ -1,11 +1,19 @@
 $(document).ready(function() {
     AOS.init();
 
-    $('.serv-acordion .contenido').hide();
-    $('.serv-acordion').click(function(){
-        $('.serv-acordion .contenido').not($(this).find('.contenido')).hide();
-        $(this).find('.contenido').toggle('slow');
-    });
+    // console.log('hola');
+   $(document).scroll(function() {
+    let scrollY = window.scrollY;
+
+    if(scrollY >= 100) {
+        $('.top-info').addClass('d-none');
+        $('.header-1').addClass('bg-trans fixed-top').removeClass('bg-white');
+    }
+    else {
+        $('.top-info').removeClass('d-none');
+        $('.header-1').removeClass('bg-trans').addClass('bg-white');
+    }
+   });
 
 
 });

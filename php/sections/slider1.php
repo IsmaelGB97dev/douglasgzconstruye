@@ -1,7 +1,7 @@
 <div id="carouselExampleCaptions" class="carousel slide slider-1" data-bs-ride="carousel">
   <div class="carousel-inner position-relative">
     <?php for($i=0; $i<count($data->sliderText); $i++) : ?>
-    <div class="carousel-item <?php echo ($i == 0)?'active':''; ?>">
+    <div class="carousel-item <?php echo ($i == 0)?'active':''; ?>" data-bs-interval="20000" >
       <img src="<?php echo SLIDER.$i+1;?>.jpg" class="lazyload d-none d-md-block w-100 img-fluid" alt="<?php echo $data->negocio; ?>" width="1300" height="300" >
 
       <img src="<?php echo SLIDERMIN.$i+1;?>.jpg" class="lazyload d-block d-md-none w-100 img-fluid" alt="<?php echo $data->negocio; ?>" width="500" height="500">

@@ -1,5 +1,5 @@
 <!-- <div class="sticky-top"> -->
-    <div class="container-fluid bg-color3 d-none d-md-block">
+    <div class="container-fluid d-none d-md-block">
         <div class="container">
             <div class="row py-1 px-3 justify-content-center text-center align-items-center">
                 <div class="col-md-4 col-lg-3">
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-light menu-1 border py-2 sticky-top">
+    <div class="container-fluid menu-1 border py-2 sticky-top">
         <div class="row pt-2">
             <div class="col-lg-3 py-2 py-lg-0 text-center">
                 <img src="<?php echo IMG;?>logo.png" alt="<?php echo $data->negocio;?>" width="230" height="72">
