@@ -164,6 +164,12 @@ h1,h2,h3,h4,h5,h6 {
     border: 1px solid rgba(0, 0, 0, 0.685);
 }
 
+/* ------------------ SECTION3 --------------- */
+.section3 {
+    background: linear-gradient(180deg, var(--color1) 70%, #fff 10%);
+}
+
+
 
 
 /* ------------------ MENU1 ----------------- */
